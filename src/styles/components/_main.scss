@@ -1,0 +1,35 @@
+.Main {
+    margin: 5rem;
+    border: 1px dashed black;
+    padding: 0.5rem;
+}
+
+.Main--output {
+    display: flex;
+    flex-direction: row;
+    // justify-content: space-between;
+    padding: 0.5rem;
+    margin: 1rem 1rem 0 1rem;
+    // border: 1px dashed black;
+}
+
+.Main--input {
+    padding: 0.5rem;
+    margin: 1rem 1rem 0 1rem;
+    // border: 1px dashed black;
+}
+
+.Main--answer {
+    flex-grow: 1;
+    background: lighten(grey, 36);
+    border-bottom: 1px dashed grey;
+    font-size: 2.3rem;
+    font-weight: 600;
+    margin: 0.2rem 0.5rem 0 0;
+    padding-left: 3rem;
+    padding-top: 0.5rem;
+}
+
+.Main--answer__button {
+    display: flex;
+}
